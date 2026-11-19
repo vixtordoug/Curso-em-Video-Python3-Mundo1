@@ -1,0 +1,36 @@
+Python 3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> print('Olá, mundo!')
+Olá, mundo!
+>>> print('7+4='7+4)
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print('7+4='&7+4)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    print('7+4='&7+4)
+TypeError: unsupported operand type(s) for &: 'str' and 'int'
+>>> print('7+4='+7+4)
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    print('7+4='+7+4)
+TypeError: can only concatenate str (not "int") to str
+>>> print('7+4=',7+4)
+7+4= 11
+>>> nome=input('Qual o seu nome?')
+Qual o seu nome?Victor
+>>> Idede=input('Quantos anos você tem?')
+Quantos anos você tem?24
+>>> peso=input('Qual o seu peso?')
+Qual o seu peso?58
+>>> print(nome, idede, peso)
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    print(nome, idede, peso)
+NameError: name 'idede' is not defined. Did you mean: 'Idede'?
+>>> print(nome, idade, peso)
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    print(nome, idade, peso)
+NameError: name 'idade' is not defined. Did you mean: 'Idede'?
+>>> print(nome, Idede, peso)
+Victor 24 58
