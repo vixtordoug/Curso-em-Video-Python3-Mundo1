@@ -1,0 +1,6 @@
+a=input('Digite algo: ')
+print('É alfanumérico: ', a.isalnum())
+print('É numérico: ', a.isnumeric())
+print('É alfabético: ', a.isalpha())
+print('É decimal: ', a.isdecimal())
+print('Foi escrito com letras maiúsculas: ',a.isupper())
