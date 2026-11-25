@@ -1,9 +1,9 @@
 print(f'{'METROS, CENTIMETROS, MILIMETROS':=^50}')
 m=float(input('Digite um valor em metros: '))
-cm=m*100
-mm=m*1000
-
-print('\n')
-print(f'Metros: {m}m')
-print(f'Centímetros: {cm}cm')
-print(f'Milímetros: {mm}mm')
+print('Quilômetro: {}km'.format(m/1000))
+print('Hectômetro: {}hm'.format(m/100))
+print('Decâmetro: {}dam'.format(m/10))
+print('Metros: {}m'.format(m))
+print('Decímetro: {}dm'.format(m*10))
+print('Centímetros: {}cm'.format(m*100))
+print('Milímetros: {}mm'.format(m*1000))

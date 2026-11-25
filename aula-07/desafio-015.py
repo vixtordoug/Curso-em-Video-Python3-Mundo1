@@ -1,0 +1,8 @@
+print(f'{'':-^50}')
+print(f'{'CALCULADORA DE ALUGUEL DE CARROS':^50}')
+print(f'{'':-^50}')
+dd=int(input('Dias alugados: '))
+km=float(input('Km rodados: '))
+print(f'{'':-^50}')
+print('O aluguel ficou: R$ {:.2f}'.format((dd*60)+(km*0.15)))
+print(f'{'':-^50}')
